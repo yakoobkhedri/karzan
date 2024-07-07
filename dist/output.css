@@ -645,10 +645,6 @@ video {
   left: -132px;
 }
 
-.-right-2 {
-  right: -0.5rem;
-}
-
 .-right-4 {
   right: -1rem;
 }
@@ -777,10 +773,6 @@ video {
   top: -167px;
 }
 
-.-top-\[33px\] {
-  top: -33px;
-}
-
 .-top-\[52px\] {
   top: -52px;
 }
@@ -905,10 +897,6 @@ video {
   right: 14rem;
 }
 
-.right-7 {
-  right: 1.75rem;
-}
-
 .right-80 {
   right: 20rem;
 }
@@ -919,22 +907,6 @@ video {
 
 .right-\[13px\] {
   right: 13px;
-}
-
-.right-\[152px\] {
-  right: 152px;
-}
-
-.right-\[275px\] {
-  right: 275px;
-}
-
-.right-\[398px\] {
-  right: 398px;
-}
-
-.right-\[525px\] {
-  right: 525px;
 }
 
 .right-auto {
@@ -983,6 +955,14 @@ video {
 
 .top-\[34px\] {
   top: 34px;
+}
+
+.-bottom-2 {
+  bottom: -0.5rem;
+}
+
+.\!-bottom-2 {
+  bottom: -0.5rem !important;
 }
 
 .-z-0 {
@@ -1613,10 +1593,6 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -2682,32 +2658,12 @@ a {
   left: 14rem;
 }
 
-:is([dir="ltr"] .ltr\:left-7) {
-  left: 1.75rem;
-}
-
 :is([dir="ltr"] .ltr\:left-80) {
   left: 20rem;
 }
 
 :is([dir="ltr"] .ltr\:left-9) {
   left: 2.25rem;
-}
-
-:is([dir="ltr"] .ltr\:left-\[152px\]) {
-  left: 152px;
-}
-
-:is([dir="ltr"] .ltr\:left-\[275px\]) {
-  left: 275px;
-}
-
-:is([dir="ltr"] .ltr\:left-\[398px\]) {
-  left: 398px;
-}
-
-:is([dir="ltr"] .ltr\:left-\[525px\]) {
-  left: 525px;
 }
 
 :is([dir="ltr"] .ltr\:left-auto) {
@@ -2766,6 +2722,10 @@ a {
   margin-left: 4rem;
 }
 
+:is([dir="ltr"] .ltr\:ml-\[11px\]) {
+  margin-left: 11px;
+}
+
 :is([dir="ltr"] .ltr\:ml-auto) {
   margin-left: auto;
 }
@@ -2780,10 +2740,6 @@ a {
 
 :is([dir="ltr"] .ltr\:mr-auto) {
   margin-right: auto;
-}
-
-:is([dir="ltr"] .ltr\:ml-\[11px\]) {
-  margin-left: 11px;
 }
 
 :is([dir="ltr"] .ltr\:rotate-180) {
@@ -3657,26 +3613,6 @@ a {
     right: 1.75rem;
   }
 
-  .xl\:right-\[186px\] {
-    right: 186px;
-  }
-
-  .xl\:right-\[331px\] {
-    right: 331px;
-  }
-
-  .xl\:right-\[38px\] {
-    right: 38px;
-  }
-
-  .xl\:right-\[479px\] {
-    right: 479px;
-  }
-
-  .xl\:right-\[628px\] {
-    right: 628px;
-  }
-
   .xl\:ml-8 {
     margin-left: 2rem;
   }
@@ -3775,26 +3711,6 @@ a {
 
   :is([dir="ltr"] .ltr\:xl\:left-7) {
     left: 1.75rem;
-  }
-
-  :is([dir="ltr"] .ltr\:xl\:left-\[186px\]) {
-    left: 186px;
-  }
-
-  :is([dir="ltr"] .ltr\:xl\:left-\[331px\]) {
-    left: 331px;
-  }
-
-  :is([dir="ltr"] .ltr\:xl\:left-\[38px\]) {
-    left: 38px;
-  }
-
-  :is([dir="ltr"] .ltr\:xl\:left-\[479px\]) {
-    left: 479px;
-  }
-
-  :is([dir="ltr"] .ltr\:xl\:left-\[628px\]) {
-    left: 628px;
   }
 
   :is([dir="ltr"] .ltr\:xl\:ml-40) {
