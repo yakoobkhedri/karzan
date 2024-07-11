@@ -1265,6 +1265,10 @@ video {
   display: inline-flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
@@ -1701,6 +1705,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .rounded-2xl {
@@ -2550,6 +2558,94 @@ a {
 
 .swiper-pagination-bullet {
   transition: all .4s !important;
+}
+
+.services-section p, .services-section span {
+  text-align: justify !important;
+  opacity: 50%;
+}
+
+.services-section img {
+  max-width: 581px;
+  width: 100%;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.services-section ul {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  margin-right: 1rem;
+  border-right-width: 2px;
+  border-style: dashed;
+  border-color: #00000026;
+  padding-right: 18px;
+}
+
+.services-section ul li:first-child {
+  padding-top: 0px;
+}
+
+.services-section ul li {
+  font-size: 0.875rem;
+  padding-top: 26px;
+  line-height: 1.25rem;
+  color: #8f8f8f;
+}
+
+.services-section ul li::before {
+  content: url('../src/img/solar_check-circle-bold-duotone.png');
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: 47px;
+}
+
+.services-section table {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  text-align: right;
+}
+
+.services-section thead {
+  color:#1d2c47;
+}
+
+table tr:first-child th:first-child {
+  border-top-right-radius: 18px;
+}
+
+table tr:first-child th:last-child {
+  border-top-left-radius: 18px;
+}
+
+.services-section th {
+  border-width: 1px;
+  border-color: #0000001A;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.services-section tbody > :nth-child(2n+1) {
+  background-color:#f8f8f8;
+}
+
+.services-section tbody td {
+  border-width: 1px;
+  border-color: #0000001A;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  opacity: 0.6;
 }
 
 .mobileMenu {
