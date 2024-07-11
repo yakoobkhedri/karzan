@@ -1253,6 +1253,13 @@ video {
   -webkit-line-clamp: 5;
 }
 
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .block {
   display: block;
 }
@@ -1395,6 +1402,18 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-\[1485px\] {
+  height: 1485px;
+}
+
+.h-\[1521px\] {
+  height: 1521px;
 }
 
 .w-1\/2 {
@@ -3562,6 +3581,10 @@ table tr:first-child th:last-child {
 
   .lg\:h-\[390px\] {
     height: 390px;
+  }
+
+  .lg\:h-\[516px\] {
+    height: 516px;
   }
 
   .lg\:w-80 {
