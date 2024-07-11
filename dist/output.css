@@ -2571,6 +2571,8 @@ a {
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
   display: block;
 }
 
@@ -2632,6 +2634,7 @@ table tr:first-child th:last-child {
   padding-right: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  border-top: 0;
 }
 
 .services-section tbody > :nth-child(2n+1) {
@@ -2646,6 +2649,8 @@ table tr:first-child th:last-child {
   padding-left: 1rem;
   padding-right: 1rem;
   opacity: 0.6;
+  border-bottom: 0;
+  font-size: 12px;
 }
 
 .mobileMenu {
@@ -2690,6 +2695,12 @@ table tr:first-child th:last-child {
   opacity: 100%;
   top: 0;
   z-index: 50;
+}
+
+@media (max-width: 1024px) {
+  .services-section ul li::before {
+    right: 23px;
+  }
 }
 
 .hover\:bg-dark:hover {
