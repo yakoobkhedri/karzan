@@ -78,6 +78,21 @@ var services = new Swiper(".services2", {
     clickable: true,
   },
 });
+var services = new Swiper(".services3", {
+  slidesPerView: 4,
+      grid: {
+        rows: 2,
+      },
+  spaceBetween: 30,
+  pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 var solution = new Swiper(".solution", {
   loop: true,
   spaceBetween: 38,
