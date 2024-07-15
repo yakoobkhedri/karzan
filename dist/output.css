@@ -1246,18 +1246,18 @@ video {
   margin-top: 71px;
 }
 
-.line-clamp-2 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-}
-
 .line-clamp-5 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .block {
@@ -1312,10 +1312,6 @@ video {
   height: 2.25rem;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
 .h-\[110\%\] {
   height: 110%;
 }
@@ -1326,10 +1322,6 @@ video {
 
 .h-\[137px\] {
   height: 137px;
-}
-
-.h-\[1521px\] {
-  height: 1521px;
 }
 
 .h-\[262px\] {
@@ -1406,6 +1398,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[51px\] {
+  height: 51px;
 }
 
 .w-1\/2 {
@@ -2516,6 +2512,12 @@ a {
   top: 0;
 }
 
+html[dir='ltr'] .serviceBoxBefore::before {
+  right: 0;
+  left: auto;
+  transform: rotateY(-180deg);
+}
+
 .swiper-pagination {
   top: auto !important;
   bottom: 3px !important;
@@ -2631,14 +2633,6 @@ a {
 .services3.swiper {
   width: 100%!important;
   height: 100%!important;
-}
-
-.services3 .swiper-slide {
-  height: calc((100% - 30px) / 2)!important;
-  /* Center slide text vertically */
-  display: flex!important;
-  justify-content: center!important;
-  align-items: center!important;
 }
 
 table tr:first-child th:first-child {
@@ -2799,6 +2793,10 @@ table tr:first-child th:last-child {
 
 :is([dir="ltr"] .ltr\:left-56) {
   left: 14rem;
+}
+
+:is([dir="ltr"] .ltr\:left-8) {
+  left: 2rem;
 }
 
 :is([dir="ltr"] .ltr\:left-80) {
@@ -2964,6 +2962,14 @@ table tr:first-child th:last-child {
 
 :is([dir="rtl"] .rtl\:-right-2) {
   right: -0.5rem;
+}
+
+:is([dir="rtl"] .rtl\:-right-8) {
+  right: -2rem;
+}
+
+:is([dir="rtl"] .rtl\:right-8) {
+  right: 2rem;
 }
 
 :is([dir="rtl"] .rtl\:mr-\[11px\]) {
@@ -3279,10 +3285,6 @@ table tr:first-child th:last-child {
     align-items: center;
   }
 
-  .md\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .md\:gap-56 {
     gap: 14rem;
   }
@@ -3308,10 +3310,6 @@ table tr:first-child th:last-child {
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
   }
 
   .md\:pb-14 {
