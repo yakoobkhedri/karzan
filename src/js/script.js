@@ -81,6 +81,7 @@ var services = new Swiper(".services2", {
 var services = new Swiper(".services3", {
   slidesPerView: 4,
       grid: {
+        fill: 'row',
         rows: 2,
       },
   spaceBetween: 30,
