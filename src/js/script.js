@@ -79,19 +79,14 @@ var services = new Swiper(".services2", {
   },
 });
 var services = new Swiper(".services3", {
-  autoplay:true,
+  // autoplay:true,
   slidesPerView: 1,
-      grid: {
-        fill: 'row',
-        rows: 1,
-      },
       breakpoints: {
         768: {
           slidesPerView: 2,
-          grid: {
-            fill: 'row',
-            rows: 2,
-          },
+        },
+        992: {
+          slidesPerView: 3,
         }
       },
   spaceBetween: 30,
