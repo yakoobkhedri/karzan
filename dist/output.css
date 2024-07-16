@@ -957,6 +957,14 @@ video {
   top: 34px;
 }
 
+.-bottom-\[74px\] {
+  bottom: -74px;
+}
+
+.\!-bottom-\[74px\] {
+  bottom: -74px !important;
+}
+
 .-z-0 {
   z-index: 0;
 }
@@ -1246,13 +1254,6 @@ video {
   margin-top: 71px;
 }
 
-.line-clamp-5 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-}
-
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1340,6 +1341,10 @@ video {
   height: 507px;
 }
 
+.h-\[51px\] {
+  height: 51px;
+}
+
 .h-\[54px\] {
   height: 54px;
 }
@@ -1350,10 +1355,6 @@ video {
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[674px\] {
-  height: 674px;
 }
 
 .h-\[683px\] {
@@ -1400,8 +1401,8 @@ video {
   height: 100%;
 }
 
-.h-\[51px\] {
-  height: 51px;
+.h-\[130\%\] {
+  height: 130%;
 }
 
 .w-1\/2 {
@@ -2155,6 +2156,10 @@ video {
 
 .pt-\[6px\] {
   padding-top: 6px;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
 }
 
 .text-left {
@@ -3005,6 +3010,10 @@ table tr:first-child th:last-child {
     height: 988px;
   }
 
+  .sm\:h-\[110\%\] {
+    height: 110%;
+  }
+
   .sm\:w-1\/2 {
     width: 50%;
   }
@@ -3086,6 +3095,10 @@ table tr:first-child th:last-child {
     line-height: 2.25rem;
   }
 
+  .sm\:text-\[22px\] {
+    font-size: 22px;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -3163,6 +3176,18 @@ table tr:first-child th:last-child {
     top: auto;
   }
 
+  .md\:\!-bottom-\[30px\] {
+    bottom: -30px !important;
+  }
+
+  .md\:-top-10 {
+    top: -2.5rem;
+  }
+
+  .md\:\!-bottom-\[36px\] {
+    bottom: -36px !important;
+  }
+
   .md\:order-first {
     order: -9999;
   }
@@ -3237,10 +3262,6 @@ table tr:first-child th:last-child {
     display: none;
   }
 
-  .md\:h-\[1475px\] {
-    height: 1475px;
-  }
-
   .md\:h-\[354px\] {
     height: 354px;
   }
@@ -3251,6 +3272,14 @@ table tr:first-child th:last-child {
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-\[110\%\] {
+    height: 110%;
+  }
+
+  .md\:h-\[108\%\] {
+    height: 108%;
   }
 
   .md\:w-80 {
@@ -3374,11 +3403,6 @@ table tr:first-child th:last-child {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .md\:leading-9 {
@@ -3576,10 +3600,6 @@ table tr:first-child th:last-child {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:h-\[1202px\] {
-    height: 1202px;
   }
 
   .lg\:h-\[390px\] {
@@ -3784,10 +3804,6 @@ table tr:first-child th:last-child {
 
   .xl\:h-\[865px\] {
     height: 865px;
-  }
-
-  .xl\:h-\[889px\] {
-    height: 889px;
   }
 
   .xl\:h-full {
