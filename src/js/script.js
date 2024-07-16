@@ -79,7 +79,7 @@ var services = new Swiper(".services2", {
   },
 });
 var services = new Swiper(".services3", {
-  // autoplay:true,
+  autoplay:true,
   slidesPerView: 1,
       breakpoints: {
         768: {
@@ -100,17 +100,30 @@ var services = new Swiper(".services3", {
   },
 });
 var solution = new Swiper(".solution", {
-  loop: true,
-  spaceBetween: 38,
-  slidesPerView: 1,
+  grid:{
+    fill: 'row',
+    rows : 2
+  },
+  spaceBetween: 15,
+  slidesPerView: 2,
   breakpoints: {
     992: {
+      spaceBetween: 38,
+      grid:{
+        rows : 1
+      },
       slidesPerView: 2,
     },
     1200: {
+      grid: {
+        rows: 1,
+      },
       slidesPerView: 3,
     },
     1400: {
+      grid: {
+        rows: 1,
+      },
       slidesPerView: 4,
     }
   },
