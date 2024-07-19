@@ -79,7 +79,11 @@ var services = new Swiper(".services2", {
   },
 });
 var services = new Swiper(".services3", {
-  autoplay:true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+},
   slidesPerView: 1,
       breakpoints: {
         768: {
@@ -130,7 +134,8 @@ var solution = new Swiper(".solution", {
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
-  },
+    pauseOnMouseEnter: true,
+},
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -156,7 +161,8 @@ var portfolio = new Swiper(".portfolio", {
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
-  },
+    pauseOnMouseEnter: true,
+},
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: true,
@@ -184,5 +190,6 @@ var brands = new Swiper(".brands", {
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
-  },
+    pauseOnMouseEnter: true,
+},
 });
