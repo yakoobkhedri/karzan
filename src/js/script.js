@@ -62,8 +62,8 @@ var bannerSwiper = new Swiper(".bannerSwiper", {
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next3",
-    prevEl: ".swiper-button-prev3",
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 
@@ -112,8 +112,8 @@ var services = new Swiper(".services3", {
       clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next2",
+    prevEl: ".swiper-button-prev2",
   },
 });
 var solution = new Swiper(".solution", {

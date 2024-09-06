@@ -617,12 +617,12 @@ video {
   bottom: 2px !important;
 }
 
-.\!left-0 {
-  left: 0px !important;
-}
-
 .\!left-14 {
   left: 3.5rem !important;
+}
+
+.\!left-3 {
+  left: 0.75rem !important;
 }
 
 .\!left-auto {
@@ -831,6 +831,10 @@ video {
 
 .bottom-28 {
   bottom: 7rem;
+}
+
+.bottom-32 {
+  bottom: 8rem;
 }
 
 .bottom-5 {
@@ -1246,6 +1250,10 @@ video {
   margin-top: 11rem;
 }
 
+.mt-48 {
+  margin-top: 12rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -1288,10 +1296,6 @@ video {
 
 .mt-\[71px\] {
   margin-top: 71px;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .line-clamp-2 {
@@ -1517,12 +1521,12 @@ video {
   width: 2.25rem;
 }
 
-.w-\[134px\] {
-  width: 134px;
+.w-\[106px\] {
+  width: 106px;
 }
 
-.w-\[143px\] {
-  width: 143px;
+.w-\[134px\] {
+  width: 134px;
 }
 
 .w-\[219px\] {
@@ -1603,10 +1607,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[106px\] {
-  width: 106px;
 }
 
 .max-w-\[688px\] {
@@ -2617,8 +2617,8 @@ html[dir='ltr'] .serviceBoxBefore::before {
   transform: rotateY(-180deg);
 }
 
-.banner .swiper-button-next3::after,
-.banner .swiper-button-prev3::after {
+.banner .swiper-button-next::after,
+.banner .swiper-button-prev::after {
   font-size: 18px;
   color: white;
   font-weight: bold;
@@ -2673,12 +2673,17 @@ html[dir='ltr'] .serviceBoxBefore::before {
 }
 
 #services .swiper-button-prev::after,
-#services .swiper-button-next::after {
+#services .swiper-button-next::after,
+#services .swiper-button-prev2::after,
+#services .swiper-button-next2::after {
   content: '' !important;
 }
 
 .swiper-button-prev:hover,
-.swiper-button-next:hover {
+.swiper-button-next:hover,
+#services .swiper-button-prev2:hover,
+#services .swiper-button-next2:hover
+{
   background-color: #8D50EF !important;
 }
 
@@ -3173,6 +3178,10 @@ table tr:first-child th:last-child {
 }
 
 @media (min-width: 450px) {
+  .min-\[450px\]\:mt-44 {
+    margin-top: 11rem;
+  }
+
   .min-\[450px\]\:w-\[143px\] {
     width: 143px;
   }
@@ -3302,6 +3311,11 @@ table tr:first-child th:last-child {
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .sm\:px-7 {
@@ -3475,6 +3489,18 @@ table tr:first-child th:last-child {
     top: auto;
   }
 
+  .md\:-top-8 {
+    top: -2rem;
+  }
+
+  .md\:-top-14 {
+    top: -3.5rem;
+  }
+
+  .md\:-top-16 {
+    top: -4rem;
+  }
+
   .md\:order-first {
     order: -9999;
   }
@@ -3527,6 +3553,10 @@ table tr:first-child th:last-child {
 
   .md\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:mt-9 {
@@ -4178,6 +4208,11 @@ table tr:first-child th:last-child {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .xl\:px-36 {

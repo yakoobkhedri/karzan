@@ -47,8 +47,8 @@ html[dir='ltr'] .serviceBoxBefore::before {
   left: auto;
   transform: rotateY(-180deg);
 }
-.banner .swiper-button-next3::after,
-.banner .swiper-button-prev3::after {
+.banner .swiper-button-next::after,
+.banner .swiper-button-prev::after {
   font-size: 18px;
   color: white;
   font-weight: bold;
@@ -102,12 +102,17 @@ html[dir='ltr'] .serviceBoxBefore::before {
 }
 
 #services .swiper-button-prev::after,
-#services .swiper-button-next::after {
+#services .swiper-button-next::after,
+#services .swiper-button-prev2::after,
+#services .swiper-button-next2::after {
   content: '' !important;
 }
 
 .swiper-button-prev:hover,
-.swiper-button-next:hover {
+.swiper-button-next:hover,
+#services .swiper-button-prev2:hover,
+#services .swiper-button-next2:hover
+{
   background-color: #8D50EF !important;
 }
 
