@@ -47,6 +47,26 @@ html[dir='ltr'] .serviceBoxBefore::before {
   left: auto;
   transform: rotateY(-180deg);
 }
+.banner .swiper-button-next3::after,
+.banner .swiper-button-prev3::after {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.banner .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 26px !important;
+  background-color: #D9D9D9 !important;
+  border-radius: 15px !important;
+  transition: all .4s;
+  opacity: 100%;
+}
+
+.banner .swiper-pagination-bullet-active {
+  height: 34px !important;
+  background-color: #8d50ef !important;
+}
 .swiper-pagination {
   top: auto !important;
   bottom: 3px !important;

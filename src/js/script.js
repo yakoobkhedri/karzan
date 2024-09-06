@@ -53,6 +53,19 @@ document.addEventListener('mousemove', (event) => {
 })
 
 // swiper
+var bannerSwiper = new Swiper(".bannerSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 90,
+  autoplay: true,
+  pagination: {
+    el: ".swiper-pagination3",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next3",
+    prevEl: ".swiper-button-prev3",
+  },
+});
 
 var services = new Swiper(".services", {
   slidesPerView: 1,

@@ -12,122 +12,145 @@
 <body>
 
     <!-- contact modal -->
-  <div class="modal">
-    <div style="visibility: hidden; opacity: 0;" data-button="contact-modal"
-      class="modal-container overflow-auto bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all flex justify-center items-center px-4 sm:px-7">
-      <div
-        class="modal-content bg-white max-w-[797px] md:h-[354px] w-full rounded-[27px] p-7 pb-11 md:p-5 flex flex-col md:flex-row justify-center md:justify-start items-center gap-7 md:gap-14 relative">
-        <p class="block md:hidden font-black text-xl text-center mt-6">مشتاق شنیدن صدای گرم شما هستیم!</p>
-        <div class="relative ltr:left-[-39px] ltr:right-auto right-[-39px] flex-shrink-0 hidden md:block">
-            <img alt="bg" src="../img/modalBg.png" class="ltr:[transform:rotateY(180deg)]">
-            <img alt="text" src="../img/Text.png" class="absolute inset-0 m-auto">
+    <div class="modal">
+        <div style="visibility: hidden; opacity: 0;" data-button="contact-modal"
+            class="modal-container overflow-auto bg-black/60 backdrop-blur-sm fixed inset-0 z-50 transition-all flex justify-center items-center px-4 sm:px-7">
+            <div
+                class="modal-content bg-white max-w-[797px] md:h-[354px] w-full rounded-[27px] p-7 pb-11 md:p-5 flex flex-col md:flex-row justify-center md:justify-start items-center gap-7 md:gap-14 relative">
+                <p class="block md:hidden font-black text-xl text-center mt-6">مشتاق شنیدن صدای گرم شما هستیم!</p>
+                <div class="relative ltr:left-[-39px] ltr:right-auto right-[-39px] flex-shrink-0 hidden md:block">
+                    <img alt="bg" src="../img/modalBg.png" class="ltr:[transform:rotateY(180deg)]">
+                    <img alt="text" src="../img/Text.png" class="absolute inset-0 m-auto">
+                </div>
+                <div class="flex-grow pl-6 ltr:pr-6 ltr:pl-0">
+                    <a class="flex items-center gap-6 mb-7">
+                        <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                            viewBox="0 0 48 48" fill="none">
+                            <g opacity="0.4">
+                                <path
+                                    d="M28.8365 10.9799C27.8844 10.804 27.01 11.4116 26.8288 12.3409C26.6475 13.2703 27.257 14.1777 28.1832 14.3595C30.9717 14.9032 33.1249 17.0617 33.6706 19.8598C33.826 20.6652 34.5351 21.2528 35.3517 21.2528C35.4613 21.2528 35.5708 21.2428 35.6824 21.2228C36.6085 21.037 37.218 20.1316 37.0368 19.2002C36.2221 15.0211 33.0054 11.7933 28.8365 10.9799Z"
+                                    fill="#8D50EF" fill-opacity="0.5" />
+                                <path
+                                    d="M28.7117 4.01586C28.2655 3.9519 27.8174 4.08381 27.4608 4.36762C27.0944 4.65542 26.8653 5.07113 26.8155 5.53682C26.7099 6.47817 27.3891 7.32958 28.3293 7.43551C34.8126 8.15901 39.8519 13.2095 40.5809 19.7131C40.6785 20.5845 41.4094 21.242 42.2819 21.242C42.3476 21.242 42.4113 21.238 42.4771 21.23C42.9332 21.1801 43.3395 20.9542 43.6263 20.5945C43.9112 20.2347 44.0406 19.787 43.9888 19.3293C43.0806 11.2149 36.8004 4.91724 28.7117 4.01586Z"
+                                    fill="#8D50EF" fill-opacity="0.5" />
+                            </g>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M22.0635 25.9448C30.0416 33.9207 31.8515 24.6934 36.9313 29.7696C41.8286 34.6655 44.6432 35.6464 38.4385 41.8494C37.6613 42.474 32.7232 49.9885 15.3692 32.6393C-1.98696 15.288 5.52317 10.3449 6.14794 9.5679C12.3677 3.34769 13.3317 6.17877 18.229 11.0747C23.3087 16.153 14.0853 17.9688 22.0635 25.9448Z"
+                                fill="#8D50EF" fill-opacity="0.5" />
+                        </svg>
+                        <div>
+                            <p class="font-black text-lg text-[#110E2D]">۰۲۱-۹۱۰۱۶۶۶۸</p>
+                            <p class="font-normal opacity-50 text-sm text-[#110E2D]">تماس در روز های کاری از ۹ صبح تا ۹
+                                شب
+                            </p>
+                        </div>
+                    </a>
+                    <a class="flex items-center gap-6 mb-7">
+                        <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                            viewBox="0 0 48 48" fill="none">
+                            <path opacity="0.4"
+                                d="M44 31.8804C44 37.4604 39.52 41.9804 33.94 42.0004H33.92H14.1C8.54 42.0004 4 37.5004 4 31.9204V31.9004C4 31.9004 4.012 23.0484 4.028 18.5964C4.03 17.7604 4.99 17.2924 5.644 17.8124C10.396 21.5824 18.894 28.4564 19 28.5464C20.42 29.6844 22.22 30.3264 24.06 30.3264C25.9 30.3264 27.7 29.6844 29.12 28.5244C29.226 28.4544 37.534 21.7864 42.358 17.9544C43.014 17.4324 43.978 17.9004 43.98 18.7344C44 23.1524 44 31.8804 44 31.8804Z"
+                                fill="#8D50EF" fill-opacity="0.5" />
+                            <path
+                                d="M42.9518 11.3472C41.2198 8.0832 37.8118 5.9992 34.0598 5.9992H14.0998C10.3478 5.9992 6.93977 8.0832 5.20777 11.3472C4.81977 12.0772 5.00377 12.9872 5.64977 13.5032L20.4998 25.3812C21.5398 26.2212 22.7998 26.6392 24.0598 26.6392C24.0678 26.6392 24.0738 26.6392 24.0798 26.6392C24.0858 26.6392 24.0938 26.6392 24.0998 26.6392C25.3598 26.6392 26.6198 26.2212 27.6598 25.3812L42.5098 13.5032C43.1558 12.9872 43.3398 12.0772 42.9518 11.3472Z"
+                                fill="#8D50EF" fill-opacity="0.5" />
+                        </svg>
+                        <div>
+                            <p class="font-black text-lg text-[#110E2D]">info@moeidgroup.com</p>
+                            <p class="font-normal opacity-50 text-sm text-[#110E2D]">ارتباط از طریق ایمیل</p>
+                        </div>
+                    </a>
+                    <a class="flex items-center gap-6">
+                        <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                            viewBox="0 0 48 48" fill="none">
+                            <path
+                                d="M17.0632 5.87354C21.433 3.33455 26.8041 3.37893 31.1328 5.98979C35.4189 8.65383 38.0239 13.4084 37.9998 18.5229C37.8999 23.6039 35.1066 28.38 31.6149 32.0722C29.5997 34.2128 27.3452 36.1057 24.8977 37.7121C24.6456 37.8578 24.3695 37.9554 24.083 38C23.8072 37.9883 23.5386 37.9068 23.3015 37.7629C19.5649 35.3491 16.2867 32.2681 13.6247 28.6679C11.3972 25.6627 10.1317 22.032 10 18.2688L10.01 17.7214C10.1918 12.8093 12.8496 8.32186 17.0632 5.87354ZM25.8145 14.0695C24.0381 13.3145 21.9901 13.7247 20.6266 15.1087C19.2632 16.4927 18.8533 18.5774 19.5883 20.3896C20.3234 22.2017 22.0584 23.3837 23.9832 23.3837C25.2442 23.3928 26.4564 22.8877 27.3496 21.981C28.2429 21.0742 28.743 19.8413 28.7385 18.5568C28.7452 16.5961 27.5909 14.8246 25.8145 14.0695Z"
+                                fill="#8D50EF" fill-opacity="0.5" />
+                            <path opacity="0.4"
+                                d="M24 44C29.5228 44 34 43.1046 34 42C34 40.8954 29.5228 40 24 40C18.4772 40 14 40.8954 14 42C14 43.1046 18.4772 44 24 44Z"
+                                fill="#8D50EF" fill-opacity="0.5" />
+                        </svg>
+                        <div>
+                            <p class="font-black text-lg text-[#110E2D]">تهران،‌خیابان شریعتی،‌ نبش کودکان غزه،‌پلاک ۵۱
+                            </p>
+                            <p class="font-normal opacity-50 text-sm text-[#110E2D]">حصور با هماهنگی قبلی</p>
+                        </div>
+                    </a>
+                </div>
+                <button class="absolute top-4 left-4 ltr:right-4 ltr:left-auto close-button p-2">
+                    <svg class="w-4" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.3" d="M16 2L2 16M2 2L16 16" stroke="black" stroke-width="2.15385"
+                            stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
-        <div class="flex-grow pl-6 ltr:pr-6 ltr:pl-0">
-            <a class="flex items-center gap-6 mb-7">
-                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
-                    viewBox="0 0 48 48" fill="none">
-                    <g opacity="0.4">
-                        <path
-                            d="M28.8365 10.9799C27.8844 10.804 27.01 11.4116 26.8288 12.3409C26.6475 13.2703 27.257 14.1777 28.1832 14.3595C30.9717 14.9032 33.1249 17.0617 33.6706 19.8598C33.826 20.6652 34.5351 21.2528 35.3517 21.2528C35.4613 21.2528 35.5708 21.2428 35.6824 21.2228C36.6085 21.037 37.218 20.1316 37.0368 19.2002C36.2221 15.0211 33.0054 11.7933 28.8365 10.9799Z"
-                            fill="#8D50EF" fill-opacity="0.5" />
-                        <path
-                            d="M28.7117 4.01586C28.2655 3.9519 27.8174 4.08381 27.4608 4.36762C27.0944 4.65542 26.8653 5.07113 26.8155 5.53682C26.7099 6.47817 27.3891 7.32958 28.3293 7.43551C34.8126 8.15901 39.8519 13.2095 40.5809 19.7131C40.6785 20.5845 41.4094 21.242 42.2819 21.242C42.3476 21.242 42.4113 21.238 42.4771 21.23C42.9332 21.1801 43.3395 20.9542 43.6263 20.5945C43.9112 20.2347 44.0406 19.787 43.9888 19.3293C43.0806 11.2149 36.8004 4.91724 28.7117 4.01586Z"
-                            fill="#8D50EF" fill-opacity="0.5" />
-                    </g>
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M22.0635 25.9448C30.0416 33.9207 31.8515 24.6934 36.9313 29.7696C41.8286 34.6655 44.6432 35.6464 38.4385 41.8494C37.6613 42.474 32.7232 49.9885 15.3692 32.6393C-1.98696 15.288 5.52317 10.3449 6.14794 9.5679C12.3677 3.34769 13.3317 6.17877 18.229 11.0747C23.3087 16.153 14.0853 17.9688 22.0635 25.9448Z"
-                        fill="#8D50EF" fill-opacity="0.5" />
-                </svg>
-                <div>
-                    <p class="font-black text-lg text-[#110E2D]">۰۲۱-۹۱۰۱۶۶۶۸</p>
-                    <p class="font-normal opacity-50 text-sm text-[#110E2D]">تماس در روز های کاری از ۹ صبح تا ۹ شب
-                    </p>
-                </div>
-            </a>
-            <a class="flex items-center gap-6 mb-7">
-                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
-                    viewBox="0 0 48 48" fill="none">
-                    <path opacity="0.4"
-                        d="M44 31.8804C44 37.4604 39.52 41.9804 33.94 42.0004H33.92H14.1C8.54 42.0004 4 37.5004 4 31.9204V31.9004C4 31.9004 4.012 23.0484 4.028 18.5964C4.03 17.7604 4.99 17.2924 5.644 17.8124C10.396 21.5824 18.894 28.4564 19 28.5464C20.42 29.6844 22.22 30.3264 24.06 30.3264C25.9 30.3264 27.7 29.6844 29.12 28.5244C29.226 28.4544 37.534 21.7864 42.358 17.9544C43.014 17.4324 43.978 17.9004 43.98 18.7344C44 23.1524 44 31.8804 44 31.8804Z"
-                        fill="#8D50EF" fill-opacity="0.5" />
-                    <path
-                        d="M42.9518 11.3472C41.2198 8.0832 37.8118 5.9992 34.0598 5.9992H14.0998C10.3478 5.9992 6.93977 8.0832 5.20777 11.3472C4.81977 12.0772 5.00377 12.9872 5.64977 13.5032L20.4998 25.3812C21.5398 26.2212 22.7998 26.6392 24.0598 26.6392C24.0678 26.6392 24.0738 26.6392 24.0798 26.6392C24.0858 26.6392 24.0938 26.6392 24.0998 26.6392C25.3598 26.6392 26.6198 26.2212 27.6598 25.3812L42.5098 13.5032C43.1558 12.9872 43.3398 12.0772 42.9518 11.3472Z"
-                        fill="#8D50EF" fill-opacity="0.5" />
-                </svg>
-                <div>
-                    <p class="font-black text-lg text-[#110E2D]">info@moeidgroup.com</p>
-                    <p class="font-normal opacity-50 text-sm text-[#110E2D]">ارتباط از طریق ایمیل</p>
-                </div>
-            </a>
-            <a class="flex items-center gap-6">
-                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="48" height="48"
-                    viewBox="0 0 48 48" fill="none">
-                    <path
-                        d="M17.0632 5.87354C21.433 3.33455 26.8041 3.37893 31.1328 5.98979C35.4189 8.65383 38.0239 13.4084 37.9998 18.5229C37.8999 23.6039 35.1066 28.38 31.6149 32.0722C29.5997 34.2128 27.3452 36.1057 24.8977 37.7121C24.6456 37.8578 24.3695 37.9554 24.083 38C23.8072 37.9883 23.5386 37.9068 23.3015 37.7629C19.5649 35.3491 16.2867 32.2681 13.6247 28.6679C11.3972 25.6627 10.1317 22.032 10 18.2688L10.01 17.7214C10.1918 12.8093 12.8496 8.32186 17.0632 5.87354ZM25.8145 14.0695C24.0381 13.3145 21.9901 13.7247 20.6266 15.1087C19.2632 16.4927 18.8533 18.5774 19.5883 20.3896C20.3234 22.2017 22.0584 23.3837 23.9832 23.3837C25.2442 23.3928 26.4564 22.8877 27.3496 21.981C28.2429 21.0742 28.743 19.8413 28.7385 18.5568C28.7452 16.5961 27.5909 14.8246 25.8145 14.0695Z"
-                        fill="#8D50EF" fill-opacity="0.5" />
-                    <path opacity="0.4"
-                        d="M24 44C29.5228 44 34 43.1046 34 42C34 40.8954 29.5228 40 24 40C18.4772 40 14 40.8954 14 42C14 43.1046 18.4772 44 24 44Z"
-                        fill="#8D50EF" fill-opacity="0.5" />
-                </svg>
-                <div>
-                    <p class="font-black text-lg text-[#110E2D]">تهران،‌خیابان شریعتی،‌ نبش کودکان غزه،‌پلاک ۵۱</p>
-                    <p class="font-normal opacity-50 text-sm text-[#110E2D]">حصور با هماهنگی قبلی</p>
-                </div>
-            </a>
-        </div>
-        <button class="absolute top-4 left-4 ltr:right-4 ltr:left-auto close-button p-2">
-          <svg class="w-4" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path opacity="0.3" d="M16 2L2 16M2 2L16 16" stroke="black" stroke-width="2.15385" stroke-linecap="round"
-              stroke-linejoin="round"></path>
-          </svg>
-        </button>
-      </div>
     </div>
-  </div>
 
-  <!-- contact icon -->
-  <div class="fixed bottom-28 md:bottom-8 ltr:right-7 ltr:lg:right-10 ltr:left-auto left-7 lg:left-10 z-40">
-    <button class="mx-auto block" id="contact-modal">
-      <svg class="w-14 md:w-auto" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
-        <rect x="3" y="3" width="49" height="49" rx="12" fill="url(#paint0_linear_210_69)" stroke="#CDBFFF" stroke-width="6"></rect>
-        <g opacity="0.4">
-          <path d="M30.4397 20.2594C29.8969 20.1591 29.3984 20.5055 29.2951 21.0353C29.1918 21.5651 29.5392 22.0824 30.0673 22.1861C31.657 22.496 32.8844 23.7266 33.1956 25.3217C33.2841 25.7809 33.6884 26.1159 34.1539 26.1159C34.2164 26.1159 34.2788 26.1102 34.3424 26.0988C34.8704 25.9928 35.2179 25.4767 35.1146 24.9457C34.6501 22.5633 32.8163 20.7231 30.4397 20.2594Z" fill="white"></path>
-          <path d="M30.3687 16.2893C30.1144 16.2529 29.8589 16.3281 29.6556 16.4898C29.4467 16.6539 29.3161 16.8909 29.2877 17.1564C29.2275 17.693 29.6147 18.1784 30.1507 18.2388C33.8468 18.6513 36.7196 21.5305 37.1352 25.2381C37.1908 25.7349 37.6076 26.1098 38.1049 26.1098C38.1424 26.1098 38.1787 26.1075 38.2162 26.1029C38.4762 26.0744 38.7079 25.9457 38.8714 25.7406C39.0338 25.5355 39.1076 25.2803 39.078 25.0194C38.5603 20.3934 34.98 16.8032 30.3687 16.2893Z" fill="white"></path>
-        </g>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.5782 28.7908C31.1264 33.3378 32.1582 28.0774 35.0542 30.9713C37.846 33.7624 39.4506 34.3216 35.9134 37.8578C35.4703 38.2139 32.6552 42.4978 22.7619 32.6073C12.8673 22.7155 17.1487 19.8974 17.5049 19.4545C21.0507 15.9084 21.6003 17.5224 24.3922 20.3135C27.2881 23.2086 22.0299 24.2438 26.5782 28.7908Z" fill="white"></path>
-        <defs>
-          <linearGradient id="paint0_linear_210_69" x1="-8.19564e-07" y1="48.538" x2="63.6427" y2="30.5092" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#8d50ef"></stop>
-            <stop offset="1" stop-color="#8d50ef"></stop>
-          </linearGradient>
-        </defs>
-      </svg>
-    </button>
-    <a class="mx-auto block mt-3" href="#">
-      <svg class="mx-auto block w-14 md:w-auto" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
-        <rect x="3" y="3" width="49" height="49" rx="12" fill="#60D669" stroke="#94E89A" stroke-width="6"></rect>
-        <g clip-path="url(#clip0_210_79)">
-          <path d="M15.5634 28.13C15.5628 30.3631 16.1462 32.5435 17.2557 34.4654L15.4573 41.0319L22.1772 39.2699C24.0359 40.2817 26.1183 40.8119 28.2346 40.812H28.2401C35.2261 40.812 40.9129 35.1273 40.9159 28.14C40.9173 24.7542 39.5999 21.5704 37.2064 19.1751C34.8134 16.7799 31.6307 15.4602 28.2396 15.4586C21.2528 15.4586 15.5664 21.1431 15.5635 28.13" fill="url(#paint0_linear_210_79)"></path>
-          <path d="M15.1102 28.1259C15.1095 30.4393 15.7139 32.6977 16.8629 34.6884L15 41.4903L21.9609 39.6651C23.8788 40.7108 26.0383 41.2622 28.2356 41.263H28.2413C35.4779 41.263 41.369 35.3738 41.3721 28.1364C41.3733 24.6289 40.0086 21.3306 37.5296 18.8495C35.0503 16.3687 31.7538 15.0014 28.2413 15C21.0034 15 15.1131 20.8884 15.1102 28.1259ZM19.2556 34.3456L18.9957 33.933C17.9031 32.1957 17.3264 30.1882 17.3272 28.1267C17.3296 22.1111 22.2253 17.2169 28.2454 17.2169C31.1607 17.2181 33.9005 18.3546 35.9613 20.4166C38.0219 22.4788 39.1558 25.22 39.1551 28.1356C39.1524 34.1512 34.2566 39.046 28.2413 39.046H28.2369C26.2783 39.045 24.3574 38.519 22.6821 37.525L22.2834 37.2885L18.1527 38.3715L19.2556 34.3455V34.3456Z" fill="url(#paint1_linear_210_79)"></path>
-          <path d="M24.9596 22.6384C24.7138 22.0921 24.4551 22.0811 24.2214 22.0715C24.03 22.0632 23.8112 22.0639 23.5926 22.0639C23.3738 22.0639 23.0183 22.1462 22.7178 22.4743C22.417 22.8027 21.5693 23.5963 21.5693 25.2105C21.5693 26.8247 22.7451 28.3847 22.909 28.6038C23.0731 28.8225 25.1787 32.241 28.5135 33.5561C31.2851 34.649 31.8491 34.4316 32.4506 34.3768C33.0522 34.3222 34.3918 33.5834 34.6651 32.8173C34.9386 32.0513 34.9386 31.3946 34.8566 31.2574C34.7746 31.1207 34.5558 31.0386 34.2277 30.8746C33.8995 30.7105 32.2865 29.9168 31.9858 29.8073C31.685 29.6979 31.4663 29.6433 31.2475 29.9718C31.0287 30.2998 30.4004 31.0386 30.2089 31.2574C30.0176 31.4767 29.8261 31.504 29.4981 31.3399C29.1698 31.1753 28.1131 30.8293 26.8595 29.7117C25.8842 28.842 25.2257 27.7681 25.0343 27.4395C24.8429 27.1115 25.0138 26.9337 25.1783 26.7702C25.3257 26.6232 25.5065 26.3871 25.6707 26.1956C25.8343 26.004 25.8889 25.8673 25.9983 25.6485C26.1078 25.4295 26.053 25.2379 25.9711 25.0738C25.8889 24.9097 25.2513 23.2871 24.9596 22.6384Z" fill="white"></path>
-        </g>
-        <defs>
-          <linearGradient id="paint0_linear_210_79" x1="1288.39" y1="2572.78" x2="1288.39" y2="15.4586" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#1FAF38"></stop>
-            <stop offset="1" stop-color="#60D669"></stop>
-          </linearGradient>
-          <linearGradient id="paint1_linear_210_79" x1="1333.6" y1="2664.03" x2="1333.6" y2="15" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#F9F9F9"></stop>
-            <stop offset="1" stop-color="white"></stop>
-          </linearGradient>
-          <clipPath id="clip0_210_79">
-            <rect width="26.3721" height="26.5781" fill="white" transform="translate(15 15)"></rect>
-          </clipPath>
-        </defs>
-      </svg>
-      <p class="text-secondary rtl:font-yekanBakhBold ltr:font-MontserratBold font-black text-sm text-center mt-2 hidden sm:block">درخواست مشاوره</p>
-    </a>
-  </div>
+    <!-- contact icon -->
+    <div class="fixed bottom-28 md:bottom-8 ltr:right-7 ltr:lg:right-10 ltr:left-auto left-7 lg:left-10 z-40">
+        <button class="mx-auto block" id="contact-modal">
+            <svg class="w-14 md:w-auto" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55"
+                fill="none">
+                <rect x="3" y="3" width="49" height="49" rx="12" fill="url(#paint0_linear_210_69)" stroke="#CDBFFF"
+                    stroke-width="6"></rect>
+                <g opacity="0.4">
+                    <path
+                        d="M30.4397 20.2594C29.8969 20.1591 29.3984 20.5055 29.2951 21.0353C29.1918 21.5651 29.5392 22.0824 30.0673 22.1861C31.657 22.496 32.8844 23.7266 33.1956 25.3217C33.2841 25.7809 33.6884 26.1159 34.1539 26.1159C34.2164 26.1159 34.2788 26.1102 34.3424 26.0988C34.8704 25.9928 35.2179 25.4767 35.1146 24.9457C34.6501 22.5633 32.8163 20.7231 30.4397 20.2594Z"
+                        fill="white"></path>
+                    <path
+                        d="M30.3687 16.2893C30.1144 16.2529 29.8589 16.3281 29.6556 16.4898C29.4467 16.6539 29.3161 16.8909 29.2877 17.1564C29.2275 17.693 29.6147 18.1784 30.1507 18.2388C33.8468 18.6513 36.7196 21.5305 37.1352 25.2381C37.1908 25.7349 37.6076 26.1098 38.1049 26.1098C38.1424 26.1098 38.1787 26.1075 38.2162 26.1029C38.4762 26.0744 38.7079 25.9457 38.8714 25.7406C39.0338 25.5355 39.1076 25.2803 39.078 25.0194C38.5603 20.3934 34.98 16.8032 30.3687 16.2893Z"
+                        fill="white"></path>
+                </g>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.5782 28.7908C31.1264 33.3378 32.1582 28.0774 35.0542 30.9713C37.846 33.7624 39.4506 34.3216 35.9134 37.8578C35.4703 38.2139 32.6552 42.4978 22.7619 32.6073C12.8673 22.7155 17.1487 19.8974 17.5049 19.4545C21.0507 15.9084 21.6003 17.5224 24.3922 20.3135C27.2881 23.2086 22.0299 24.2438 26.5782 28.7908Z"
+                    fill="white"></path>
+                <defs>
+                    <linearGradient id="paint0_linear_210_69" x1="-8.19564e-07" y1="48.538" x2="63.6427" y2="30.5092"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#8d50ef"></stop>
+                        <stop offset="1" stop-color="#8d50ef"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </button>
+        <a class="mx-auto block mt-3" href="#">
+            <svg class="mx-auto block w-14 md:w-auto" xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                viewBox="0 0 55 55" fill="none">
+                <rect x="3" y="3" width="49" height="49" rx="12" fill="#60D669" stroke="#94E89A" stroke-width="6">
+                </rect>
+                <g clip-path="url(#clip0_210_79)">
+                    <path
+                        d="M15.5634 28.13C15.5628 30.3631 16.1462 32.5435 17.2557 34.4654L15.4573 41.0319L22.1772 39.2699C24.0359 40.2817 26.1183 40.8119 28.2346 40.812H28.2401C35.2261 40.812 40.9129 35.1273 40.9159 28.14C40.9173 24.7542 39.5999 21.5704 37.2064 19.1751C34.8134 16.7799 31.6307 15.4602 28.2396 15.4586C21.2528 15.4586 15.5664 21.1431 15.5635 28.13"
+                        fill="url(#paint0_linear_210_79)"></path>
+                    <path
+                        d="M15.1102 28.1259C15.1095 30.4393 15.7139 32.6977 16.8629 34.6884L15 41.4903L21.9609 39.6651C23.8788 40.7108 26.0383 41.2622 28.2356 41.263H28.2413C35.4779 41.263 41.369 35.3738 41.3721 28.1364C41.3733 24.6289 40.0086 21.3306 37.5296 18.8495C35.0503 16.3687 31.7538 15.0014 28.2413 15C21.0034 15 15.1131 20.8884 15.1102 28.1259ZM19.2556 34.3456L18.9957 33.933C17.9031 32.1957 17.3264 30.1882 17.3272 28.1267C17.3296 22.1111 22.2253 17.2169 28.2454 17.2169C31.1607 17.2181 33.9005 18.3546 35.9613 20.4166C38.0219 22.4788 39.1558 25.22 39.1551 28.1356C39.1524 34.1512 34.2566 39.046 28.2413 39.046H28.2369C26.2783 39.045 24.3574 38.519 22.6821 37.525L22.2834 37.2885L18.1527 38.3715L19.2556 34.3455V34.3456Z"
+                        fill="url(#paint1_linear_210_79)"></path>
+                    <path
+                        d="M24.9596 22.6384C24.7138 22.0921 24.4551 22.0811 24.2214 22.0715C24.03 22.0632 23.8112 22.0639 23.5926 22.0639C23.3738 22.0639 23.0183 22.1462 22.7178 22.4743C22.417 22.8027 21.5693 23.5963 21.5693 25.2105C21.5693 26.8247 22.7451 28.3847 22.909 28.6038C23.0731 28.8225 25.1787 32.241 28.5135 33.5561C31.2851 34.649 31.8491 34.4316 32.4506 34.3768C33.0522 34.3222 34.3918 33.5834 34.6651 32.8173C34.9386 32.0513 34.9386 31.3946 34.8566 31.2574C34.7746 31.1207 34.5558 31.0386 34.2277 30.8746C33.8995 30.7105 32.2865 29.9168 31.9858 29.8073C31.685 29.6979 31.4663 29.6433 31.2475 29.9718C31.0287 30.2998 30.4004 31.0386 30.2089 31.2574C30.0176 31.4767 29.8261 31.504 29.4981 31.3399C29.1698 31.1753 28.1131 30.8293 26.8595 29.7117C25.8842 28.842 25.2257 27.7681 25.0343 27.4395C24.8429 27.1115 25.0138 26.9337 25.1783 26.7702C25.3257 26.6232 25.5065 26.3871 25.6707 26.1956C25.8343 26.004 25.8889 25.8673 25.9983 25.6485C26.1078 25.4295 26.053 25.2379 25.9711 25.0738C25.8889 24.9097 25.2513 23.2871 24.9596 22.6384Z"
+                        fill="white"></path>
+                </g>
+                <defs>
+                    <linearGradient id="paint0_linear_210_79" x1="1288.39" y1="2572.78" x2="1288.39" y2="15.4586"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#1FAF38"></stop>
+                        <stop offset="1" stop-color="#60D669"></stop>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_210_79" x1="1333.6" y1="2664.03" x2="1333.6" y2="15"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F9F9F9"></stop>
+                        <stop offset="1" stop-color="white"></stop>
+                    </linearGradient>
+                    <clipPath id="clip0_210_79">
+                        <rect width="26.3721" height="26.5781" fill="white" transform="translate(15 15)"></rect>
+                    </clipPath>
+                </defs>
+            </svg>
+            <p
+                class="text-secondary rtl:font-yekanBakhBold ltr:font-MontserratBold font-black text-sm text-center mt-2 hidden sm:block">
+                درخواست مشاوره</p>
+        </a>
+    </div>
 
     <!-- header -->
     <header class="max-w-content mx-auto w-full px-5 xl:px-36 relative">
@@ -861,31 +884,26 @@
     </header>
 
     <!-- main -->
-    <main class="pt-24">
+    <main class="pt-28">
 
         <!-- banner -->
         <section id="banner" class="max-w-content mx-auto w-full px-5 xl:px-36">
-            <div>
-                <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 pb-[117px] relative">
-                    <!-- shape -->
-                    <img alt="rocket" src="../img/rocket.png"
-                        class="absolute -bottom-0 ltr:right-auto left-auto ltr:left-44 right-44 ltr:[transform:rotateY(180deg)] hidden lg:block -z-1">
-                    <img alt="shape" src="../img/Vector 88.png"
-                        class="absolute -top-20 ltr:right-0 left-0 ltr:left-80 right-80 -z-1 mx-auto hidden md:block ltr:[transform:rotateY(180deg)]">
-                    <!--  -->
+            <div
+                class="max-w-content mx-auto w-full px-4 items-center grid grid-cols-12 gap-y-6 xl:gap-y-0 xl:gap-x-14">
+                <div
+                    class="xl:col-span-5 col-span-12 order-last xl:order-first text-center xl:text-right ltr:xl:text-left">
                     <div
-                        class="lg:mt-12 -m-7 w-full mx-auto order-last lg:order-first text-center lg:text-right ltr:lg:text-left px-5">
-                        <h1
-                            class="text-secondary font-extrabold leading-10 lg:leading-22 text-2xl lg:text-4xl font-rokh">
-                            آژانس طراحی و پیاده سازی<br>
+                        class=" w-full mx-auto order-last lg:order-first text-center lg:text-right ltr:lg:text-left px-5">
+                        <h1 class="text-secondary font-extrabold text-xl lg:text-3xl lg:leading-[44px] font-rokh">
+                            آژانس طراحی و پیاده سازی
                             بیزینس و کسب کار های بزرگ
                         </h1>
-                        <p class="lg:text-lg text-sm opacity-50 lg:mt-10 mt-4 leading-8 lg:leading-10">
-                            طراحی و پیاده سازی وبسایت و پلتفرم حرفه ای و سئو شده<br class="hidden sm:block"> برای بیزینس
+                        <p class="lg:text-lg text-sm opacity-50 mt-4 leading-8 lg:leading-10">
+                            طراحی و پیاده سازی وبسایت و پلتفرم حرفه ای و سئو شده برای بیزینس
                             و کسب و کار های بزرگ با
-                            جدیدترین متد و زبان<br class="hidden sm:block"> روز دنیا
+                            جدیدترین متد و زبان روز دنیا
                         </p>
-                        <div class="flex items-center justify-center lg:justify-start gap-7 mt-14">
+                        <div class="flex items-center justify-center lg:justify-start gap-7 mt-8">
                             <a
                                 class="flex items-center justify-center gap-1 sm:py-3 py-2 sm:px-7 px-3 h-14 w-36 sm:w-40 shadow-button bg-primary rounded-2xl rounded-tr-sm text-white font-bold text-xs sm:text-sm">
                                 <p>شروع کنید</p>
@@ -916,15 +934,169 @@
                             class="fixed md:bottom-8 bottom-28 ltr:md:left-8 md:right-8 ltr:left-5 right-5 ltr:right-auto z-30 animate-bounce"><img
                                 alt="contact" src="../img/Button.png"></a>
                     </div>
-                    <!--  -->
-                    <img alt="banner" src="../img/banner.png" class="w-full block -z-2 order-first lg:order-last">
+                </div>
+                <div class="xl:col-span-7 col-span-12">
+                    <div class="relative">
+                        <!-- shape -->
+                        <div
+                            class="absolute hidden xl:block rtl:-right-3 ltr:-left-3 -top-3 bg-[#e8dcfc] rounded-[30px] h-[434px] w-[98%]">
+                        </div>
+                        <!--  -->
+                        <div class="rounded-[20px] sm:rounded-[30px] bg-[#232340] relative">
+                            <!-- shape -->
+                            <img alt="shape" src="../img/svg/Rectangle 28.svg"
+                                class="absolute z-10 w-[90px] sm:w-auto -bottom-[1px] right-10 sm:right-[85px]">
+                            <!--  -->
+                            <div class="relative banner">
+                                <div dir="ltr"
+                                    class="swiper text-right bannerSwiper pt-7 px-5 sm:pt-16 pb-7 sm:pb-[90px]">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="flex items-center justify-between gap-4">
+                                                <img alt="img" src="../img/point-sale-machine-design-resource 1.png"
+                                                    class="w-[143px] sm:w-[243px] block">
+                                                <div class="sm:max-w-[290px] w-full">
+                                                    <h1
+                                                        class="ltr:font-MontserratBold rtl:font-PeydaBold ltr:text-left rtl:text-right leading-8 sm:leading-[67px] text-lg sm:text-3xl md:text-[39px] font-bold text-white">
+                                                        طراحی سایت
+                                                    </h1>
+                                                    <a
+                                                        class="sm:h-[61px] h-10 w-32 sm:w-auto rtl:mr-0 rtl:ml-auto ltr:ml-0 ltr:mr-auto sm:px-9 sm:mt-14 mt-4 font-semibold text-[8px] sm:text-base border-[2px] border-white rounded-[30px] flex items-center justify-center gap-3 text-white">
+                                                        <svg class="ltr:rotate-180 rtl:rotate-0 ltr:order-last rtl:order-first flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.40436 0.375541C5.28834 0.257339 5.13015 0.190019 4.96453 0.188371C4.79891 0.186723 4.63941 0.25088 4.52107 0.366749L0.313139 4.49174C0.194937 4.60776 0.127618 4.76595 0.125969 4.93157C0.124321 5.09718 0.188478 5.25668 0.304348 5.37503L4.42934 9.58296C4.48594 9.64493 4.55445 9.69487 4.63077 9.72979C4.70709 9.76471 4.78967 9.7839 4.87357 9.78622C4.95747 9.78853 5.04098 9.77393 5.11911 9.74327C5.19724 9.71261 5.2684 9.66653 5.32833 9.60777C5.38827 9.54902 5.43576 9.47879 5.46797 9.40129C5.50017 9.32378 5.51644 9.24058 5.5158 9.15665C5.51515 9.07272 5.49761 8.98978 5.46421 8.91278C5.43082 8.83578 5.38225 8.76629 5.32142 8.70846L1.63368 4.94657L5.39557 1.25883C5.51377 1.14281 5.58109 0.984623 5.58274 0.819006C5.58438 0.653388 5.52023 0.493887 5.40436 0.375541Z"
+                                                                fill="white"></path>
+                                                            <path opacity="0.5"
+                                                                d="M9.08948 4.39572C9.88361 4.40363 11.0596 4.64868 12.049 5.37606C13.0708 6.12793 13.8518 7.36494 13.8332 9.23484C13.8316 9.40059 13.7641 9.5589 13.6458 9.67494C13.5274 9.79098 13.3678 9.85524 13.202 9.85359C13.0363 9.85194 12.878 9.78451 12.7619 9.66614C12.6459 9.54777 12.5816 9.38815 12.5833 9.2224C12.5978 7.75914 12.0105 6.89992 11.309 6.38375C10.5751 5.84392 9.67117 5.65158 9.07704 5.64566L2.25238 5.57774L1.63363 4.94655L2.26482 4.3278L9.08948 4.39572Z"
+                                                                fill="white"></path>
+                                                        </svg>
+                                                        <p class="flex-shrink-0">مشاهده نمونه کارها</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex items-center justify-between gap-4">
+                                                <img alt="img" src="../img/point-sale-machine-design-resource 1.png"
+                                                    class="w-[143px] sm:w-[243px] block">
+                                                <div class="sm:max-w-[290px] w-full">
+                                                    <h1
+                                                        class="ltr:font-MontserratBold rtl:font-PeydaBold ltr:text-left rtl:text-right leading-8 sm:leading-[67px] text-lg sm:text-3xl md:text-[39px] font-bold text-white">
+                                                        طراحی سایت
+                                                    </h1>
+                                                    <a
+                                                        class="sm:h-[61px] h-10 w-32 sm:w-auto rtl:mr-0 rtl:ml-auto ltr:ml-0 ltr:mr-auto sm:px-9 sm:mt-14 mt-4 font-semibold text-[8px] sm:text-base border-[2px] border-white rounded-[30px] flex items-center justify-center gap-3 text-white">
+                                                        <svg class="ltr:rotate-180 rtl:rotate-0 ltr:order-last rtl:order-first flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.40436 0.375541C5.28834 0.257339 5.13015 0.190019 4.96453 0.188371C4.79891 0.186723 4.63941 0.25088 4.52107 0.366749L0.313139 4.49174C0.194937 4.60776 0.127618 4.76595 0.125969 4.93157C0.124321 5.09718 0.188478 5.25668 0.304348 5.37503L4.42934 9.58296C4.48594 9.64493 4.55445 9.69487 4.63077 9.72979C4.70709 9.76471 4.78967 9.7839 4.87357 9.78622C4.95747 9.78853 5.04098 9.77393 5.11911 9.74327C5.19724 9.71261 5.2684 9.66653 5.32833 9.60777C5.38827 9.54902 5.43576 9.47879 5.46797 9.40129C5.50017 9.32378 5.51644 9.24058 5.5158 9.15665C5.51515 9.07272 5.49761 8.98978 5.46421 8.91278C5.43082 8.83578 5.38225 8.76629 5.32142 8.70846L1.63368 4.94657L5.39557 1.25883C5.51377 1.14281 5.58109 0.984623 5.58274 0.819006C5.58438 0.653388 5.52023 0.493887 5.40436 0.375541Z"
+                                                                fill="white"></path>
+                                                            <path opacity="0.5"
+                                                                d="M9.08948 4.39572C9.88361 4.40363 11.0596 4.64868 12.049 5.37606C13.0708 6.12793 13.8518 7.36494 13.8332 9.23484C13.8316 9.40059 13.7641 9.5589 13.6458 9.67494C13.5274 9.79098 13.3678 9.85524 13.202 9.85359C13.0363 9.85194 12.878 9.78451 12.7619 9.66614C12.6459 9.54777 12.5816 9.38815 12.5833 9.2224C12.5978 7.75914 12.0105 6.89992 11.309 6.38375C10.5751 5.84392 9.67117 5.65158 9.07704 5.64566L2.25238 5.57774L1.63363 4.94655L2.26482 4.3278L9.08948 4.39572Z"
+                                                                fill="white"></path>
+                                                        </svg>
+                                                        <p class="flex-shrink-0">مشاهده نمونه کارها</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex items-center justify-between gap-4">
+                                                <img alt="img" src="../img/point-sale-machine-design-resource 1.png"
+                                                    class="w-[143px] sm:w-[243px] block">
+                                                <div class="sm:max-w-[290px] w-full">
+                                                    <h1
+                                                        class="ltr:font-MontserratBold rtl:font-PeydaBold ltr:text-left rtl:text-right leading-8 sm:leading-[67px] text-lg sm:text-3xl md:text-[39px] font-bold text-white">
+                                                        طراحی سایت
+                                                    </h1>
+                                                    <a
+                                                        class="sm:h-[61px] h-10 w-32 sm:w-auto rtl:mr-0 rtl:ml-auto ltr:ml-0 ltr:mr-auto sm:px-9 sm:mt-14 mt-4 font-semibold text-[8px] sm:text-base border-[2px] border-white rounded-[30px] flex items-center justify-center gap-3 text-white">
+                                                        <svg class="ltr:rotate-180 rtl:rotate-0 ltr:order-last rtl:order-first flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.40436 0.375541C5.28834 0.257339 5.13015 0.190019 4.96453 0.188371C4.79891 0.186723 4.63941 0.25088 4.52107 0.366749L0.313139 4.49174C0.194937 4.60776 0.127618 4.76595 0.125969 4.93157C0.124321 5.09718 0.188478 5.25668 0.304348 5.37503L4.42934 9.58296C4.48594 9.64493 4.55445 9.69487 4.63077 9.72979C4.70709 9.76471 4.78967 9.7839 4.87357 9.78622C4.95747 9.78853 5.04098 9.77393 5.11911 9.74327C5.19724 9.71261 5.2684 9.66653 5.32833 9.60777C5.38827 9.54902 5.43576 9.47879 5.46797 9.40129C5.50017 9.32378 5.51644 9.24058 5.5158 9.15665C5.51515 9.07272 5.49761 8.98978 5.46421 8.91278C5.43082 8.83578 5.38225 8.76629 5.32142 8.70846L1.63368 4.94657L5.39557 1.25883C5.51377 1.14281 5.58109 0.984623 5.58274 0.819006C5.58438 0.653388 5.52023 0.493887 5.40436 0.375541Z"
+                                                                fill="white"></path>
+                                                            <path opacity="0.5"
+                                                                d="M9.08948 4.39572C9.88361 4.40363 11.0596 4.64868 12.049 5.37606C13.0708 6.12793 13.8518 7.36494 13.8332 9.23484C13.8316 9.40059 13.7641 9.5589 13.6458 9.67494C13.5274 9.79098 13.3678 9.85524 13.202 9.85359C13.0363 9.85194 12.878 9.78451 12.7619 9.66614C12.6459 9.54777 12.5816 9.38815 12.5833 9.2224C12.5978 7.75914 12.0105 6.89992 11.309 6.38375C10.5751 5.84392 9.67117 5.65158 9.07704 5.64566L2.25238 5.57774L1.63363 4.94655L2.26482 4.3278L9.08948 4.39572Z"
+                                                                fill="white"></path>
+                                                        </svg>
+                                                        <p class="flex-shrink-0">مشاهده نمونه کارها</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex items-center justify-between gap-4">
+                                                <img alt="img" src="../img/point-sale-machine-design-resource 1.png"
+                                                    class="w-[143px] sm:w-[243px] block">
+                                                <div class="sm:max-w-[290px] w-full">
+                                                    <h1
+                                                        class="ltr:font-MontserratBold rtl:font-PeydaBold ltr:text-left rtl:text-right leading-8 sm:leading-[67px] text-lg sm:text-3xl md:text-[39px] font-bold text-white">
+                                                        طراحی سایت
+                                                    </h1>
+                                                    <a
+                                                        class="sm:h-[61px] h-10 w-32 sm:w-auto rtl:mr-0 rtl:ml-auto ltr:ml-0 ltr:mr-auto sm:px-9 sm:mt-14 mt-4 font-semibold text-[8px] sm:text-base border-[2px] border-white rounded-[30px] flex items-center justify-center gap-3 text-white">
+                                                        <svg class="ltr:rotate-180 rtl:rotate-0 ltr:order-last rtl:order-first flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.40436 0.375541C5.28834 0.257339 5.13015 0.190019 4.96453 0.188371C4.79891 0.186723 4.63941 0.25088 4.52107 0.366749L0.313139 4.49174C0.194937 4.60776 0.127618 4.76595 0.125969 4.93157C0.124321 5.09718 0.188478 5.25668 0.304348 5.37503L4.42934 9.58296C4.48594 9.64493 4.55445 9.69487 4.63077 9.72979C4.70709 9.76471 4.78967 9.7839 4.87357 9.78622C4.95747 9.78853 5.04098 9.77393 5.11911 9.74327C5.19724 9.71261 5.2684 9.66653 5.32833 9.60777C5.38827 9.54902 5.43576 9.47879 5.46797 9.40129C5.50017 9.32378 5.51644 9.24058 5.5158 9.15665C5.51515 9.07272 5.49761 8.98978 5.46421 8.91278C5.43082 8.83578 5.38225 8.76629 5.32142 8.70846L1.63368 4.94657L5.39557 1.25883C5.51377 1.14281 5.58109 0.984623 5.58274 0.819006C5.58438 0.653388 5.52023 0.493887 5.40436 0.375541Z"
+                                                                fill="white"></path>
+                                                            <path opacity="0.5"
+                                                                d="M9.08948 4.39572C9.88361 4.40363 11.0596 4.64868 12.049 5.37606C13.0708 6.12793 13.8518 7.36494 13.8332 9.23484C13.8316 9.40059 13.7641 9.5589 13.6458 9.67494C13.5274 9.79098 13.3678 9.85524 13.202 9.85359C13.0363 9.85194 12.878 9.78451 12.7619 9.66614C12.6459 9.54777 12.5816 9.38815 12.5833 9.2224C12.5978 7.75914 12.0105 6.89992 11.309 6.38375C10.5751 5.84392 9.67117 5.65158 9.07704 5.64566L2.25238 5.57774L1.63363 4.94655L2.26482 4.3278L9.08948 4.39572Z"
+                                                                fill="white"></path>
+                                                        </svg>
+                                                        <p class="flex-shrink-0">مشاهده نمونه کارها</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex items-center justify-between gap-4">
+                                                <img alt="img" src="../img/point-sale-machine-design-resource 1.png"
+                                                    class="w-[143px] sm:w-[243px] block">
+                                                <div class="sm:max-w-[290px] w-full">
+                                                    <h1
+                                                        class="ltr:font-MontserratBold rtl:font-PeydaBold ltr:text-left rtl:text-right leading-8 sm:leading-[67px] text-lg sm:text-3xl md:text-[39px] font-bold text-white">
+                                                        طراحی سایت
+                                                    </h1>
+                                                    <a
+                                                        class="sm:h-[61px] h-10 w-32 sm:w-auto rtl:mr-0 rtl:ml-auto ltr:ml-0 ltr:mr-auto sm:px-9 sm:mt-14 mt-4 font-semibold text-[8px] sm:text-base border-[2px] border-white rounded-[30px] flex items-center justify-center gap-3 text-white">
+                                                        <svg class="ltr:rotate-180 rtl:rotate-0 ltr:order-last rtl:order-first flex-shrink-0" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.40436 0.375541C5.28834 0.257339 5.13015 0.190019 4.96453 0.188371C4.79891 0.186723 4.63941 0.25088 4.52107 0.366749L0.313139 4.49174C0.194937 4.60776 0.127618 4.76595 0.125969 4.93157C0.124321 5.09718 0.188478 5.25668 0.304348 5.37503L4.42934 9.58296C4.48594 9.64493 4.55445 9.69487 4.63077 9.72979C4.70709 9.76471 4.78967 9.7839 4.87357 9.78622C4.95747 9.78853 5.04098 9.77393 5.11911 9.74327C5.19724 9.71261 5.2684 9.66653 5.32833 9.60777C5.38827 9.54902 5.43576 9.47879 5.46797 9.40129C5.50017 9.32378 5.51644 9.24058 5.5158 9.15665C5.51515 9.07272 5.49761 8.98978 5.46421 8.91278C5.43082 8.83578 5.38225 8.76629 5.32142 8.70846L1.63368 4.94657L5.39557 1.25883C5.51377 1.14281 5.58109 0.984623 5.58274 0.819006C5.58438 0.653388 5.52023 0.493887 5.40436 0.375541Z"
+                                                                fill="white"></path>
+                                                            <path opacity="0.5"
+                                                                d="M9.08948 4.39572C9.88361 4.40363 11.0596 4.64868 12.049 5.37606C13.0708 6.12793 13.8518 7.36494 13.8332 9.23484C13.8316 9.40059 13.7641 9.5589 13.6458 9.67494C13.5274 9.79098 13.3678 9.85524 13.202 9.85359C13.0363 9.85194 12.878 9.78451 12.7619 9.66614C12.6459 9.54777 12.5816 9.38815 12.5833 9.2224C12.5978 7.75914 12.0105 6.89992 11.309 6.38375C10.5751 5.84392 9.67117 5.65158 9.07704 5.64566L2.25238 5.57774L1.63363 4.94655L2.26482 4.3278L9.08948 4.39572Z"
+                                                                fill="white"></path>
+                                                        </svg>
+                                                        <p class="flex-shrink-0">مشاهده نمونه کارها</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="swiper-pagination3 flex items-center justify-center !w-[47px] sm:!w-[83px] z-10 !left-auto rtl:right-[63px] ltr:right-[61px] ltr:sm:right-[126px] rtl:sm:right-[126px] !bottom-[2px] sm:!-bottom-0.5">
+                                </div>
+                                <div
+                                    class="swiper-button-next3 active:scale-95 absolute !left-11 !right-auto top-auto !bottom-2 sm:!bottom-6">
+                                </div>
+                                <div
+                                    class="swiper-button-prev3 active:scale-95 absolute top-auto !bottom-2 sm:!bottom-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- services -->
         <section id="services"
-            class="bg-secondary relative max-w-content px-5 xl:px-36 mx-auto w-full pt-5 pb-11 h-auto mt-32 md:mt-0">
+            class="bg-secondary relative max-w-content px-5 xl:px-36 mx-auto w-full pt-5 pb-11 h-auto mt-32">
             <!-- shape -->
             <img alt="shape" src="../img/services-bg.png"
                 class="absolute ltr:right-0 ltr:left-auto left-0 ltr:[transform:rotateY(180deg)] bottom-0 z-1 w-[591px] h-[130%] md:h-[111%]">
@@ -1919,7 +2091,8 @@
                                         </svg>
                                     </div>
                                     <div class="relative mb-5 bg-input rounded-2xl h-[137px]">
-                                        <textarea class="w-full h-full bg-transparent outline-none p-4 text-sm resize-none"
+                                        <textarea
+                                            class="w-full h-full bg-transparent outline-none p-4 text-sm resize-none"
                                             placeholder="پیام شما"></textarea>
                                         <svg class="absolute ltr:right-4 ltr:left-auto left-4 top-4"
                                             xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -1932,14 +2105,20 @@
                                         </svg>
                                     </div>
                                     <div class="flex items-center gap-5 flex-grow mb-5">
-                                        <div class="bg-[#0000000A] w-full rounded-2xl flex items-center justify-center h-14 font-black text-secondary text-[22px]">
+                                        <div
+                                            class="bg-[#0000000A] w-full rounded-2xl flex items-center justify-center h-14 font-black text-secondary text-[22px]">
                                             856985
                                         </div>
-                                        <div class="rounded-2xl w-full ltr:pr-4 ltr:pl-0 pl-4 flex items-center justify-between gap-3 bg-[#0000000A] text-sm font-normal h-14">
-                                            <input placeholder="کد امنیتی" class="flex-grow py-4 ltr:pl-4 ltr:pr-0 pr-4 bg-transparent outline-none w-full">
-                                            <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                        <div
+                                            class="rounded-2xl w-full ltr:pr-4 ltr:pl-0 pl-4 flex items-center justify-between gap-3 bg-[#0000000A] text-sm font-normal h-14">
+                                            <input placeholder="کد امنیتی"
+                                                class="flex-grow py-4 ltr:pl-4 ltr:pr-0 pr-4 bg-transparent outline-none w-full">
+                                            <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="21" viewBox="0 0 20 21" fill="none">
                                                 <g opacity="0.1">
-                                                    <path d="M13.6169 2.1665C16.4419 2.1665 18.3335 4.14984 18.3335 7.09984V13.9082C18.3335 16.8498 16.4419 18.8332 13.6169 18.8332H6.39187C3.56687 18.8332 1.66687 16.8498 1.66687 13.9082V7.09984C1.66687 4.14984 3.56687 2.1665 6.39187 2.1665H13.6169ZM13.7335 9.50067C13.1835 9.50067 12.7335 9.94984 12.7335 10.4998C12.7335 11.0498 13.1835 11.4998 13.7335 11.4998C14.2835 11.4998 14.7252 11.0498 14.7252 10.4998C14.7252 9.94984 14.2835 9.50067 13.7335 9.50067ZM10.0002 9.50067C9.4502 9.50067 9.0002 9.94984 9.0002 10.4998C9.0002 11.0498 9.4502 11.4998 10.0002 11.4998C10.5502 11.4998 11.0002 11.0498 11.0002 10.4998C11.0002 9.94984 10.5502 9.50067 10.0002 9.50067ZM6.26687 9.50067C5.71687 9.50067 5.26687 9.94984 5.26687 10.4998C5.26687 11.0498 5.71687 11.4998 6.26687 11.4998C6.81687 11.4998 7.26687 11.0498 7.26687 10.4998C7.26687 9.94984 6.81687 9.50067 6.26687 9.50067Z" fill="black"></path>
+                                                    <path
+                                                        d="M13.6169 2.1665C16.4419 2.1665 18.3335 4.14984 18.3335 7.09984V13.9082C18.3335 16.8498 16.4419 18.8332 13.6169 18.8332H6.39187C3.56687 18.8332 1.66687 16.8498 1.66687 13.9082V7.09984C1.66687 4.14984 3.56687 2.1665 6.39187 2.1665H13.6169ZM13.7335 9.50067C13.1835 9.50067 12.7335 9.94984 12.7335 10.4998C12.7335 11.0498 13.1835 11.4998 13.7335 11.4998C14.2835 11.4998 14.7252 11.0498 14.7252 10.4998C14.7252 9.94984 14.2835 9.50067 13.7335 9.50067ZM10.0002 9.50067C9.4502 9.50067 9.0002 9.94984 9.0002 10.4998C9.0002 11.0498 9.4502 11.4998 10.0002 11.4998C10.5502 11.4998 11.0002 11.0498 11.0002 10.4998C11.0002 9.94984 10.5502 9.50067 10.0002 9.50067ZM6.26687 9.50067C5.71687 9.50067 5.26687 9.94984 5.26687 10.4998C5.26687 11.0498 5.71687 11.4998 6.26687 11.4998C6.81687 11.4998 7.26687 11.0498 7.26687 10.4998C7.26687 9.94984 6.81687 9.50067 6.26687 9.50067Z"
+                                                        fill="black"></path>
                                                 </g>
                                             </svg>
                                         </div>
