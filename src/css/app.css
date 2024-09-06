@@ -101,8 +101,8 @@ html[dir='ltr'] .serviceBoxBefore::before {
   background-color: #110E2D !important;
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
+#services .swiper-button-prev::after,
+#services .swiper-button-next::after {
   content: '' !important;
 }
 
@@ -254,3 +254,17 @@ table tr:first-child th:last-child {
     right: 23px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  
+  .banner .swiper-pagination-bullet {
+    width: 3px !important;
+    height: 9px !important;
+    margin: 0 3px!important;
+  }
+  
+  .banner .swiper-pagination-bullet-active {
+    height: 12px !important;
+  }
+  
+  }
