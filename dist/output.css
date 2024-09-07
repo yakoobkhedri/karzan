@@ -1453,10 +1453,6 @@ video {
   height: 100%;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
 .\!w-\[47px\] {
   width: 47px !important;
 }
@@ -2215,12 +2211,12 @@ video {
   padding-top: 3rem;
 }
 
-.pt-24 {
-  padding-top: 6rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-5 {
@@ -2245,10 +2241,6 @@ video {
 
 .pt-\[6px\] {
   padding-top: 6px;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-left {
@@ -2618,6 +2610,44 @@ html[dir='ltr'] .serviceBoxBefore::before {
   right: 0;
   left: auto;
   transform: rotateY(-180deg);
+}
+
+.buttonHover,.buttonHover2{
+  position: relative;
+  overflow: hidden;
+}
+
+.buttonHover *,.buttonHover2 * {
+  position: relative;
+}
+
+.buttonHover::before,.buttonHover2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  border-radius: 50%;
+  transform-origin: top center;
+  transform: translateX(-50%) translateY(-5%) scale(0.4);
+  transition: transform 0.9s;
+}
+
+.buttonHover::before{
+  background-color: #232340;
+}
+
+.buttonHover2::before {
+  background: #8d50ef;
+}
+
+.buttonHover:hover::before,.buttonHover2:hover::before {
+  transition: transform 1s;
+  transform: translateX(-45%) translateY(0) scale(1);
+  transform-origin: bottom center;
 }
 
 .banner .swiper-button-next::after,
