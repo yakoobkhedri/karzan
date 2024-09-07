@@ -35,7 +35,6 @@ body {
 a {
   cursor: pointer;
 }
-
 .serviceBoxBefore::before {
   content: url('../src/img/Pattern.png');
   position: absolute;
@@ -65,7 +64,7 @@ html[dir='ltr'] .serviceBoxBefore::before {
 
 .banner .swiper-pagination-bullet-active {
   height: 34px !important;
-  background-color: #8d50ef !important;
+  background-color: #232340 !important;
 }
 .swiper-pagination {
   top: auto !important;
