@@ -2466,10 +2466,6 @@ video {
   opacity: 0.6;
 }
 
-.opacity-40 {
-  opacity: 0.4;
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2595,7 +2591,7 @@ video {
 @font-face {
   font-family: stretch;
 
-  src: url('../fonts/StretchPro.otf') format("opentype");
+  src: url('../src/fonts/StretchPro.otf') format("opentype");
 }
 
 body {
@@ -3702,6 +3698,10 @@ table tr:first-child th:last-child {
     padding-right: 1.25rem;
   }
 
+  .md\:pb-11 {
+    padding-bottom: 2.75rem;
+  }
+
   .md\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -3728,10 +3728,6 @@ table tr:first-child th:last-child {
 
   .md\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .md\:pb-11 {
-    padding-bottom: 2.75rem;
   }
 
   .md\:text-2xl {

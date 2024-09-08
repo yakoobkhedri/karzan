@@ -23,9 +23,8 @@
 @font-face {
   font-family: stretch;
 
-  src: url('../fonts/StretchPro.otf') format("opentype");
+  src: url('../src/fonts/StretchPro.otf') format("opentype");
 }
-
 body {
   font-family: yekanBakh-Bold;
   overflow-x: hidden;
