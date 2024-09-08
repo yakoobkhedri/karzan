@@ -25,6 +25,9 @@
 
   src: url('../src/fonts/StretchPro.otf') format("opentype");
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: yekanBakh-Bold;
   overflow-x: hidden;
