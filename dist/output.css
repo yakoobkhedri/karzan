@@ -1305,6 +1305,13 @@ video {
   -webkit-line-clamp: 2;
 }
 
+.line-clamp-\[7\] {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
+
 .block {
   display: block;
 }
@@ -2457,6 +2464,10 @@ video {
 
 .opacity-60 {
   opacity: 0.6;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .shadow {
@@ -3717,6 +3728,10 @@ table tr:first-child th:last-child {
 
   .md\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .md\:pb-11 {
+    padding-bottom: 2.75rem;
   }
 
   .md\:text-2xl {
