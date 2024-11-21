@@ -38,6 +38,12 @@ a {
   cursor: pointer;
 }
 /* editor */
+.img-editor img{
+  border-radius: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .editor-section table{
   @apply overflow-hidden rounded-[18px] w-full ltr:text-left text-right;
 }
