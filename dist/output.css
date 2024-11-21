@@ -1769,6 +1769,10 @@ video {
   gap: 1.75rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-9 {
   gap: 2.25rem;
 }
@@ -1916,6 +1920,11 @@ video {
   border-style: dashed;
 }
 
+.border-\[\#DDDDDD\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(221 221 221 / var(--tw-border-opacity));
+}
+
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2026,6 +2035,11 @@ video {
 
 .p-\[22px\] {
   padding: 22px;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .px-1 {
@@ -2610,6 +2624,76 @@ a {
   cursor: pointer;
 }
 
+/* editor */
+
+.editor-section table {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  text-align: right;
+}
+
+:is([dir="ltr"] .editor-section table) {
+  text-align: left;
+}
+
+.editor-section thead {
+  --tw-text-opacity: 1;
+  color: rgb(35 35 64 / var(--tw-text-opacity));
+}
+
+.editor-section th {
+  border-width: 1px;
+  border-color: #0000001A;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .editor-section th {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.editor-section tbody>*:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.editor-section tbody>*:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 248 248 / var(--tw-bg-opacity));
+}
+
+.editor-section tbody tr {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+@media (min-width: 640px) {
+  .editor-section tbody tr {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.editor-section tbody td {
+  border-width: 1px;
+  border-color: #0000001A;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  opacity: 0.6;
+}
+
+/*  */
+
 .serviceBoxBefore::before {
   content: url('../src/img/Pattern.png');
   position: absolute;
@@ -2922,8 +3006,21 @@ table tr:first-child th:last-child {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.group:hover .group-hover\:fill-\[\#8D50EF\] {
+  fill: #8D50EF;
+}
+
+.group:hover .group-hover\:stroke-\[\#8D50EF\] {
+  stroke: #8D50EF;
+}
+
 .group:hover .group-hover\:stroke-white {
   stroke: #fff;
+}
+
+.group:hover .group-hover\:text-\[\#8D50EF\] {
+  --tw-text-opacity: 1;
+  color: rgb(141 80 239 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-white {
@@ -3945,6 +4042,10 @@ table tr:first-child th:last-child {
 
   .lg\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .lg\:block {
