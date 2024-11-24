@@ -207,3 +207,30 @@ var brands = new Swiper(".brands", {
     pauseOnMouseEnter: true,
 },
 });
+
+window.addEventListener('load',function () {
+  const table= document.querySelector('.editor-section').querySelector('table');
+  const newDiv = document.createElement("div");
+  table.parentNode.insertBefore(newDiv,table);
+  newDiv.appendChild(table);
+  newDiv.classList.add('overflow-x-auto');
+})
+
+// acordion
+
+let acordionBtn = Array.from(document.getElementsByClassName('acordionBtn'));
+let acordionBtn2 = Array.from(document.getElementsByClassName('acordionBtn2'));
+
+acordionBtn.forEach((item) => {
+  item.addEventListener('click', function () {
+    item.nextElementSibling.classList.toggle('active');
+    item.querySelector('img').classList.toggle('active');
+  })
+})
+acordionBtn2.forEach((item) => {
+  item.addEventListener('click', function () {
+    item.classList.toggle('active');
+    item.nextElementSibling.classList.toggle('active');
+    item.querySelector('svg').classList.toggle('active');
+  })
+})

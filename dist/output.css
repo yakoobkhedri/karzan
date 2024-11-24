@@ -993,6 +993,10 @@ video {
   top: 1.5rem;
 }
 
+.top-\[-85px\] {
+  top: -85px;
+}
+
 .top-\[1px\] {
   top: 1px;
 }
@@ -1390,6 +1394,10 @@ video {
 
 .h-\[372px\] {
   height: 372px;
+}
+
+.h-\[381px\] {
+  height: 381px;
 }
 
 .h-\[41px\] {
@@ -1814,6 +1822,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
 .rounded-\[18px\] {
   border-radius: 18px;
 }
@@ -1941,6 +1953,11 @@ video {
 
 .bg-\[\#0000000A\] {
   background-color: #0000000A;
+}
+
+.bg-\[\#9049f3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(144 73 243 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#FFFFFFB2\] {
@@ -2419,8 +2436,18 @@ video {
   color: rgb(97 119 152 / var(--tw-text-opacity));
 }
 
+.text-\[\#7A7A7A\] {
+  --tw-text-opacity: 1;
+  color: rgb(122 122 122 / var(--tw-text-opacity));
+}
+
 .text-\[\#8D50EF80\] {
   color: #8D50EF80;
+}
+
+.text-\[\#949494\] {
+  --tw-text-opacity: 1;
+  color: rgb(148 148 148 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -2626,7 +2653,7 @@ a {
 
 /* editor */
 
-.img-editor img{
+.editor-section img{
   border-radius: 18px;
   display: block;
   margin-left: auto;
@@ -2636,7 +2663,6 @@ a {
 .editor-section table {
   width: 100%;
   overflow: hidden;
-  border-radius: 18px;
   text-align: right;
 }
 
@@ -2697,6 +2723,100 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
   opacity: 0.6;
+}
+
+.editor-section a{
+  background-color: #7e7eff;
+  opacity: 100%;
+  border-radius: 8px;
+  padding: 3px;
+  color: white;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.editor-section ul {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-right: 1rem;
+  border-right-width: 2px;
+  border-style: dashed;
+  border-color: #00000026;
+  padding-right: 18px;
+}
+
+:is([dir="ltr"] .editor-section ul) {
+  margin-left: 1rem;
+  margin-right: 0px;
+  border-left-width: 2px;
+  border-right-width: 0px;
+  padding-left: 18px;
+  padding-right: 0px;
+}
+
+.editor-section ul li {
+  position: relative;
+  right: -28px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.editor-section ul li:first-child {
+  padding-top: 0px;
+}
+
+.editor-section ul li:last-child {
+  padding-bottom: 0px !important;
+}
+
+:is([dir="ltr"] .editor-section ul li) {
+  left: -29px;
+  right: 0px;
+}
+
+.editor-section ul li::before{
+  content: url('../src/img/solar_check-circle-bold-duotone.png');
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+:is([dir="ltr"] .editor-section ul li)::before {
+  left: -1.75rem;
+}
+
+:is([dir="rtl"] .editor-section ul li)::before {
+  right: -1.75rem;
+}
+
+.editor-section ul li {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(127 127 127 / var(--tw-text-opacity));
+}
+
+/* accordion */
+
+.acordionBtn svg.active,.acordionBtn2 svg.active{
+  transform: rotate(180deg);
+}
+
+.acordionContent,.acordionContent2 {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s;
+}
+
+.acordionContent.active,.acordionContent2.active {
+  max-height: 2000px;
+  overflow: visible;
 }
 
 /*  */
@@ -3460,6 +3580,11 @@ table tr:first-child th:last-child {
     border-radius: 30px;
   }
 
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -3475,6 +3600,11 @@ table tr:first-child th:last-child {
     padding-right: 1.75rem;
   }
 
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .sm\:px-9 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -3483,6 +3613,11 @@ table tr:first-child th:last-child {
   .sm\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .sm\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .sm\:pb-7 {
