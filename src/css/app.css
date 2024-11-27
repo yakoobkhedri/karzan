@@ -37,6 +37,49 @@ body {
 a {
   cursor: pointer;
 }
+/* 3D Slider */
+ .threedSlider{
+  perspective: 1200px;
+  padding-top: 10%;
+ }
+ .threedSlider .spinner{
+   transform-style: preserve-3d;
+   height: 300px;
+   transform-origin: 50% 50% -500px;
+   transition: 1s;
+ }
+ .threedSlider .spinner img{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   left: 30%;
+   transform-origin: 50% 50% -500px;
+   outline: 1px solid transparent;
+ }
+ .threedSlider .spinner img:nth-child(1){
+   transform: rotateY(0deg);
+ }
+ .threedSlider .spinner img:nth-child(2){
+   transform: rotateY(-45deg);
+ }
+ .threedSlider .spinner img:nth-child(3){
+   transform: rotateY(-90deg);
+ }
+ .threedSlider .spinner img:nth-child(4){
+   transform: rotateY(-135deg);
+ }
+ .threedSlider .spinner img:nth-child(5){
+   transform: rotateY(-180deg);
+ }
+ .threedSlider .spinner img:nth-child(6){
+   transform: rotateY(-225deg);
+ }
+ .threedSlider .spinner img:nth-child(7){
+   transform: rotateY(-270deg);
+ }
+ .threedSlider .spinner img:nth-child(8){
+   transform: rotateY(-315deg);
+ }
 /* editor */
 .editor-section img{
   border-radius: 18px;
